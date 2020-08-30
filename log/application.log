@@ -1,0 +1,61 @@
+2020-08-30 21:26:40 INFO  Application logger:20 - Database configuration
+2020-08-30 21:26:40 INFO  Application logger:30 - SessionFactory configuration
+2020-08-30 21:26:40 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.15.Final
+2020-08-30 21:26:41 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-30 21:26:41 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-08-30 21:26:41 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/finance_database]
+2020-08-30 21:26:41 INFO  pooling:124 - HHH10001001: Connection properties: {user=rs}
+2020-08-30 21:26:41 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2020-08-30 21:26:41 INFO  DriverManagerConnectionProviderImpl:249 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-08-30 21:26:42 INFO  Dialect:172 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2020-08-30 21:26:43 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@2d85fb64] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2020-08-30 21:26:43 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-30 21:26:43 INFO  Application logger:36 - JDBC configuration
+2020-08-30 21:26:43 INFO  Application logger:24 - Finding the income category by name
+2020-08-30 21:26:43 INFO  Application logger:30 - Category with name Финансовые активы was found
+2020-08-30 21:26:43 INFO  Application logger:70 - Adding a new operation. user_id = 1 , account_id = 1
+2020-08-30 21:26:43 INFO  Application logger:74 - amountOfOperation = 7000
+2020-08-30 21:26:43 INFO  Application logger:82 - Finding a user and his account by id in a database
+2020-08-30 21:26:43 INFO  Application logger:51 - Finding user with id=1
+2020-08-30 21:26:43 INFO  Application logger:57 - User was found
+2020-08-30 21:26:43 INFO  Application logger:98 - amountOfCurrentAccount before = 71000
+2020-08-30 21:26:43 INFO  Application logger:103 - Income operation was successful
+2020-08-30 21:26:43 INFO  Application logger:115 - amountOfCurrentAccount after = 78000
+2020-08-30 21:26:43 INFO  Application logger:119 - User updating in database
+2020-08-30 21:26:43 INFO  Application logger:36 - Updating information about user User{id=1, name='Петров Иван Сергеевич', email='petrov@gmail.com', phoneNumber='+380965431251'}
+2020-08-30 21:26:43 INFO  Application logger:40 - Information about user was updated
+2020-08-30 21:26:44 INFO  Application logger:24 - Finding the income category by name
+2020-08-30 21:26:44 INFO  Application logger:30 - Category with name Бизнес was found
+2020-08-30 21:26:44 INFO  Application logger:70 - Adding a new operation. user_id = 1 , account_id = 1
+2020-08-30 21:26:44 INFO  Application logger:74 - amountOfOperation = 10000
+2020-08-30 21:26:44 INFO  Application logger:82 - Finding a user and his account by id in a database
+2020-08-30 21:26:44 INFO  Application logger:51 - Finding user with id=1
+2020-08-30 21:26:44 INFO  Application logger:57 - User was found
+2020-08-30 21:26:44 INFO  Application logger:98 - amountOfCurrentAccount before = 78000
+2020-08-30 21:26:44 INFO  Application logger:103 - Income operation was successful
+2020-08-30 21:26:44 INFO  Application logger:115 - amountOfCurrentAccount after = 88000
+2020-08-30 21:26:44 INFO  Application logger:119 - User updating in database
+2020-08-30 21:26:44 INFO  Application logger:36 - Updating information about user User{id=1, name='Петров Иван Сергеевич', email='petrov@gmail.com', phoneNumber='+380965431251'}
+2020-08-30 21:26:44 INFO  Application logger:40 - Information about user was updated
+2020-08-30 21:26:44 INFO  Application logger:45 - Finding the expense category by name
+2020-08-30 21:26:44 INFO  Application logger:51 - Category with name Ремонт автомобиля was found
+2020-08-30 21:26:44 INFO  Application logger:70 - Adding a new operation. user_id = 1 , account_id = 1
+2020-08-30 21:26:44 INFO  Application logger:74 - amountOfOperation = 4000
+2020-08-30 21:26:44 INFO  Application logger:82 - Finding a user and his account by id in a database
+2020-08-30 21:26:44 INFO  Application logger:51 - Finding user with id=1
+2020-08-30 21:26:44 INFO  Application logger:57 - User was found
+2020-08-30 21:26:44 INFO  Application logger:98 - amountOfCurrentAccount before = 88000
+2020-08-30 21:26:44 INFO  Application logger:128 - Check the account for balance
+2020-08-30 21:26:44 INFO  Application logger:108 - Expense operation was successful
+2020-08-30 21:26:44 INFO  Application logger:115 - amountOfCurrentAccount after = 84000
+2020-08-30 21:26:44 INFO  Application logger:119 - User updating in database
+2020-08-30 21:26:44 INFO  Application logger:36 - Updating information about user User{id=1, name='Петров Иван Сергеевич', email='petrov@gmail.com', phoneNumber='+380965431251'}
+2020-08-30 21:26:44 INFO  Application logger:40 - Information about user was updated
+2020-08-30 21:26:44 INFO  Application logger:25 - Account statement for account with id=1
+2020-08-30 21:26:44 INFO  Application logger:30 - Creating a file "account(id=1)statement.csv"
+2020-08-30 21:26:44 INFO  Application logger:137 - Finding all operations between two days
+2020-08-30 21:26:44 INFO  Application logger:172 - Finding the total income
+2020-08-30 21:26:44 INFO  Application logger:246 - Finding the balance
+2020-08-30 21:26:44 INFO  Application logger:172 - Finding the total income
+2020-08-30 21:26:44 ERROR Application logger:209 - Finding the total expense
+2020-08-30 21:26:44 INFO  Application logger:57 - Start writing into the file "account(id=1)statement.csv"
